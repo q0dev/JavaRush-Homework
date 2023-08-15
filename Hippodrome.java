@@ -19,7 +19,7 @@ public class Hippodrome {
         List<Horse> horses = new ArrayList<>();
         horses.add(new Horse("Stan", 3, 0));
         horses.add(new Horse("Chuck", 3, 0));
-        horses.add(new Horse("Grag", 3, 0));
+        horses.add(new Horse("Greg", 3, 0));
 
         game = new Hippodrome(horses);
     }
