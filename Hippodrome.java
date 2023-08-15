@@ -24,18 +24,18 @@ public class Hippodrome {
         game = new Hippodrome(horses);
     }
 
-    public static void move() {
+    public void move() {
 
     }
 
-    public static void print() {
+    public void print() {
         
     }
 
     public void run() throws InterruptedException {
         for(int i = 1; i <= 100; i++) {
-            move();
-            print();
+            this.move();
+            this.print();
             Thread.sleep(200);
         }
     }
