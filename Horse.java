@@ -37,4 +37,12 @@ public class Horse {
     public double getDistance() {
         return this.distance;
     }
+
+    public void move() {
+
+    }
+
+    public void print() {
+
+    }
 }

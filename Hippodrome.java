@@ -25,7 +25,9 @@ public class Hippodrome {
     }
 
     public void move() {
-
+        for(Horse horse : horses) {
+            horse.move();
+        }
     }
 
     public void print() {
